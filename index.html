@@ -17,8 +17,7 @@
 
 						<img alt="" src="img/logo.png" class="left-block__logo">
 
-						<div class="left-block__fio">
-						Евгений Андрейчук
+						<div class="left-block__fio crypted-fio"  data-d1="Евге" data-d2="ний" data-d3="Андрей" data-d4="чук">				
 						</div>
 
 						<div class="left-block__profession">
@@ -33,11 +32,15 @@
 						</div>
 
 						<div class="left-block__contact">
-						Телефон 8 904 38 55 961
+						Телефон 
+						<a class="left-block__link crypted-phone" data-d1="8" data-d2="904"  data-d3="38"  data-d4="55"  data-d5="961"
+						onclick="window.location.href ='tel:'+this.dataset.d1 +this.dataset.d2 +this.dataset.d3 +this.dataset.d4 +this.dataset.d5; return false;"></a>
 						</div>
 
 						<div class="left-block__contact">
-						Email 2405384@mail.ru
+						Email 
+						<a class="left-block__link crypted-mail" data-name="2405384" data-domain="mail" data-tld="ru" 
+						onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a>
 						</div>
 
 						<div class="left-block__line"></div>

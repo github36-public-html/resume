@@ -106,7 +106,6 @@ border-top:1px solid #a2c1d3;
 	padding-bottom: 10px;
 }
 
-
 .left-block__projects {
 	font: 18px Helvetica;	
 	color: #ffffff;
@@ -119,10 +118,10 @@ border-top:1px solid #a2c1d3;
 	padding-bottom: 10px;
 }
 
-
-
-
-
+.left-block__description {
+	font: 14px Helvetica;	
+	color:#8FA9C8;
+}
 
 .right-block__title {
 	font: 20px Helvetica;
